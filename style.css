@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Open Sans", sans-serif;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.text {
+    margin-bottom: 2rem;
+}
+
+.text h1{
+    font-size: 2.3rem;
+    letter-spacing: 2px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    /* border-bottom: 4px solid #125fe3; */
+}
+
+#underline{
+    padding: 2px;
+    background-color: #125fe3;
+    width: 25%;
+    margin: auto;
+}
+
+.main-section{
+    padding: 40px 30px 40px 30px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 60%;
+}
+
+.img-container{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.text-content{
+    text-align: center;
+    margin-left: 13px;
+}
+
+#author{
+    font-size: 1rem;
+    letter-spacing: 4px;
+    margin-bottom: 4px;
+}
+
+#job{
+    font-size: 0.9rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #32edfa;
+    margin-bottom: 7px;
+}
+
+.text-content p{
+    width: 90%;
+    margin: auto;
+    font-weight: 400;
+    margin-top: 7px;
+    margin-bottom: 20px;
+    color: #919191;
+}
+
+.button-container{
+    display: flex;
+    justify-content: center;
+}
+
+.prev-btn{
+    margin-right: 7px;
+    margin-left: 7px;
+    font-size: 17px;
+    background-color: #fff;
+    border-color: #fff;
+    color: #32edfa;
+    cursor: pointer;
+}
+
+.next-btn{
+    margin-right: 7px;
+    margin-left: 7px;
+    font-size: 17px;
+    background-color: #fff;
+    border-color: #fff;
+    color: #32edfa;
+    cursor: pointer;
+}
+
+.sup-me {
+    display: flex;
+    justify-content: center;
+    margin-top: 1.2rem;
+}
+
+.random-btn{
+    padding: 4px 6px;
+    border-radius: 10px;
+    color: #32edfa;
+    border-color: #32edfa;
+    background: #fff;
+    cursor: pointer;
+}
+
+.random-btn:hover{
+    transition: 0.3s ease-in-out;
+    background-color: #32edfa;
+    color: #000;
+}
+
+#before{
+    color: #125fe3;
+    font-size: 22px;
+}
+
+.small-img{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
